@@ -1,0 +1,43 @@
+[package]
+name = "contest_397"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+proconio = "0.4.5"
+
+[[bin]]
+name = "a"
+path = "src/a.rs"
+
+[[bin]]
+name = "b"
+path = "src/b.rs"
+
+[[bin]]
+name = "c"
+path = "src/c.rs"
+
+[[bin]]
+name = "d"
+path = "src/d.rs"
+
+[[bin]]
+name = "e"
+path = "src/e.rs"
+
+[[bin]]
+name = "f"
+path = "src/f.rs"
+
+[[bin]]
+name = "g"
+path = "src/g.rs"
+
+[[bin]]
+name = "h"
+path = "src/h.rs"
+
+[[bin]]
+name = "ex"
+path = "src/ex.rs"

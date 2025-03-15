@@ -1,0 +1,18 @@
+[package]
+name = "atcoder-workspace"
+version = "0.1.0"
+edition = "2021"
+
+# This is a dummy Cargo.toml for rust-analyzer
+# Each contest has its own Cargo.toml in its directory
+
+[workspace]
+members = [
+    "beginner/*/*",
+    # "regular/*/*",
+    # "grand/*/*",
+    # "heuristic/*/*"
+]
+
+[dependencies]
+proconio = "0.4.5" 
